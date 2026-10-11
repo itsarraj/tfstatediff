@@ -12,6 +12,12 @@ snapshots — what Terraform already believes is true, at two points in
 time (e.g. a state file from last week vs. today, or before/after an
 out-of-band change).
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
